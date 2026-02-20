@@ -1,0 +1,37 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="O46%N4(N)3M=L.4q)Xz(">list</variable><variable id=":N5eZ*Y`8xqW*WQP`Rbt">myImage</variable></variables><block type="device_gesture_event" id="EKNNAfQ@y;72#J4Ci4F[" x="-99" y="-168"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="function_call" id="ItX|9/XEdw2$=Y;arbq|"><mutation name="RollDice" functionid="Lh}:$4-Q*ZO5ksJW$Yg$"></mutation></block></statement></block><block type="function_definition" id=")5`]b-d#.G0!xpjc`Jx@" x="737" y="-208"><mutation name="SetDicePattern" functionid="{JLd5XP^23_~Hlh:?IvE"></mutation><field name="function_name">SetDicePattern</field><statement name="STACK"><block type="variables_set" id="v{;Cpd+wYU?N!8pd#fn}"><field name="VAR" id="O46%N4(N)3M=L.4q)Xz(">list</field><value name="VALUE"><block type="lists_create_with" id="0s:pNO9*D{{Ndr@!P[zT" inline="false"><mutation items="6" horizontalafter="3"></mutation><value name="ADD0"><block type="device_build_image" id="nZA:%X[C,/^zls]+Y4ZT"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        . . . . .
+        `</field></block></value><value name="ADD1"><block type="device_build_image" id="CwHsAg0I4Jm+@R$`WmgH"><field name="LEDS">`
+        . . . . . 
+        . . . # . 
+        . . . . . 
+        . # . . . 
+        . . . . .
+        `</field></block></value><value name="ADD2"><block type="device_build_image" id="5dwXiK/lT4I)w$(*Y/)a"><field name="LEDS">`
+        . . . . . 
+        . . . # . 
+        . . # . . 
+        . # . . . 
+        . . . . .
+        `</field></block></value><value name="ADD3"><block type="device_build_image" id="!+jazD*#)HynXgH@l[oT"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        . # . # . 
+        . . . . .
+        `</field></block></value><value name="ADD4"><block type="device_build_image" id="#4f1oCz-?UY$+,=Qe)Px"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . # . . 
+        . # . # . 
+        . . . . .
+        `</field></block></value><value name="ADD5"><block type="device_build_image" id=":/4PenTyMv=5{*f1DFDE"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . # . # . 
+        . # . # . 
+        . . . . .
+        `</field></block></value></block></value></block></statement></block><block type="pxt-on-start" id="UxHG}6`GFPygdf8,VYad" x="0" y="0"><statement name="HANDLER"><block type="function_call" id="IF*huysUK^5n@@pXvIyj"><mutation name="SetDicePattern" functionid="{JLd5XP^23_~Hlh:?IvE"></mutation><next><block type="function_call" id="kYRQ+Te(F0cpYjBE@hA_"><mutation name="RollDice" functionid="Lh}:$4-Q*ZO5ksJW$Yg$"></mutation></block></next></block></statement></block><block type="function_definition" id="D:h2SAVD-8K39PMb;;/u" x="-116" y="220"><mutation name="RollDice" functionid="Lh}:$4-Q*ZO5ksJW$Yg$"></mutation><field name="function_name">RollDice</field><statement name="STACK"><block type="device_show_image_offset" id="uIOOK|ysRh7y34=Q3N)q"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><value name="sprite"><block type="lists_index_get" id="[PNcJhy[0rLLE=!*W(l#"><value name="LIST"><block type="variables_get" id="L[EREuRha3RN0Inm-NDn"><field name="VAR" id="O46%N4(N)3M=L.4q)Xz(">list</field></block></value><value name="INDEX"><shadow type="math_number" id="koAJaRh^wWVt2Jx85.,]"><field name="NUM">0</field></shadow><block type="device_random" id="{)iz::4zVqwzpfJflo4x"><value name="min"><shadow type="math_number" id=",|QZ=goo7_4sHE*qWQon"><field name="NUM">0</field></shadow></value><value name="limit"><shadow type="math_number" id="K}9OeQI;3G+eXi]|8CaP"><field name="NUM">5</field></shadow></value></block></value></block></value><value name="offset"><shadow type="math_number" id="Y`pvMfc25xWnu}guNAo."><field name="NUM">0</field></shadow></value><value name="interval"><shadow type="math_number" id="?Gx=)ApeY|X6vqo(K.m#"><field name="NUM">400</field></shadow></value></block></statement></block></xml>
